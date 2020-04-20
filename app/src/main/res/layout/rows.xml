@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F1F8E9"
+        android:orientation="vertical">
+
+
+        <TableLayout
+            android:id="@+id/table_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_height="match_parent"
+                android:layout_width="match_parent">
+                <TextView
+                    android:id="@+id/sr_no_1"
+                    android:layout_width="36dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+
+                    android:text="1"
+
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    />
+
+                <EditText
+                    android:id="@+id/item_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+
+                    />
+
+                <EditText
+                    android:id="@+id/qty_1"
+                    android:layout_width="72dp"
+                    android:layout_height="match_parent"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_height="match_parent"
+                android:layout_width="match_parent">
+                <TextView
+                    android:id="@+id/sr_no_2"
+                    android:layout_width="36dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+
+                    android:text="2"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    />
+
+                <EditText
+                    android:id="@+id/item_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+                <EditText
+                    android:id="@+id/qty_2"
+                    android:layout_width="72dp"
+                    android:layout_height="match_parent"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_height="match_parent"
+                android:layout_width="match_parent">
+                <TextView
+                    android:id="@+id/sr_no_3"
+                    android:layout_width="36dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+
+                    android:text="3"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    />
+
+                <EditText
+                    android:id="@+id/item_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <EditText
+                    android:id="@+id/qty_3"
+                    android:layout_width="72dp"
+                    android:layout_height="match_parent"
+                    />
+            </TableRow> <TableRow
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+                <TextView
+                    android:id="@+id/sr_no_4"
+                    android:layout_width="36dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+
+                    android:text="4"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    />
+
+                <EditText
+                    android:id="@+id/item_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+                <EditText
+                    android:id="@+id/qty_4"
+                    android:layout_width="72dp"
+                    android:layout_height="match_parent"
+                    />
+            </TableRow> <TableRow
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+                <TextView
+                    android:id="@+id/sr_no_5"
+                    android:layout_width="36dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+
+                    android:text="5"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    />
+
+                <EditText
+                    android:id="@+id/item_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <EditText
+                    android:id="@+id/qty_5"
+                    android:layout_width="72dp"
+                    android:layout_height="match_parent"
+
+                    />
+            </TableRow>
+
+
+
+
+        </TableLayout>
+
+
+
+
+    </LinearLayout>
+</ScrollView>
